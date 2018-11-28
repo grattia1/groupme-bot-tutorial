@@ -96,6 +96,7 @@ const messageListener = message => {
        * of conversation.
        */
       sendMessage('gay')
+    }
     if (message['text'].indexOf('Ravi') !== -1) {
       /* Sends a GroupMe message as this bot to the bot's
        * group, indicating its insecurity about the topic
