@@ -96,6 +96,12 @@ const messageListener = message => {
        * of conversation.
        */
       sendMessage('gay')
+    if (message['text'].indexOf('fortnite') !== -1) {
+      /* Sends a GroupMe message as this bot to the bot's
+       * group, indicating its insecurity about the topic
+       * of conversation.
+       */
+      sendMessage('https://lh3.googleusercontent.com/-N6kTUrrfu8U/WN55-rhWwlI/AAAAAAAAAOc/3jKNGiIny90RAeHepHWqwj8G9YSJ4axbgCEwYBhgL/w140-h140-p/ravi.jpg')
     }
   }
 }
